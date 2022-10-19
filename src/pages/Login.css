@@ -1,0 +1,129 @@
+.LoginStyle{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    background: linear-gradient(243.29deg, #1b1464 2.39%, #0233dc 67.84%);
+  }
+  
+  .block-login{
+    position: relative;
+    width: 45%;
+    height: 91%;
+  left: 5%;
+  top: 4%;
+  bottom: 4%;
+  
+  
+  background: #FFFFFF;
+  border-radius: 54px 0px 0px 54px;
+  }
+  
+  .logo-login{
+    position: relative;
+    left: 29%;
+    width: 38%;
+    top: 6%;
+  }
+  
+  .form-login{
+    position: relative;
+    top: 0%;
+    justify-content: center;
+    align-items: center;
+    left: 20%;
+  }
+  .text-box{
+    width: 410px;
+    height: 53px;
+    top: 130px;
+    margin-top: 10px;
+    background: #FFFFFF;
+    padding-left: 15px;
+    color: #585757;
+    border: 3px solid #D9D9D9;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .button-box{
+    width: 410px;
+    height: 53px;
+    top: 140px;
+    margin-top: 10px;
+     background: #D6195B;
+    
+    padding-left: 15px;
+    color: #FFFFFF;
+    
+    border-radius:34px;
+    position: relative;
+  }
+  
+  .forget-password {
+    align-items: center;
+    top: 150px;
+    margin-top: 18px;
+    left: 15%;
+    padding-left: 15px;
+    color: #0233DC;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    position: relative;
+  }
+  
+  .decription-login-h1{
+  
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    left: 52%;
+    top: 18%;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 87px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+  
+  }
+  
+  .logo-bpm24-login{
+    flex: 1;
+    position: relative;
+    top: -20%;
+    justify-content: center;
+    align-items: center;
+    left: 75%;
+    
+  
+  }
+  
+  .decription-login-p{
+  
+    position: absolute;
+    width: 31%;
+    height: 30%;
+    left: 59%;
+    top: 29%;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+  
+    color: #FFFFFF;
+  
+  }
