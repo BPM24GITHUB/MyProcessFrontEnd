@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build: .
+    image: react-img
+    container_name: react-img
+    ports:
+      -"3000:3000"
+    volumes:
+      - .:/app
