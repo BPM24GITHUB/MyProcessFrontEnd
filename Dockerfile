@@ -1,10 +1,11 @@
 #the latest recomended verson for users on nodejs.org is 16.17;
 
-FROM node:16.17.0-alpine3.15
+FROM node:16.18.0-buster
 
 WORKDIR /app
 
-COPY package.json .
+COPY package.json package.json
+COPY package-lock.json package-lock.json
 
 RUN npm install 
 
@@ -16,4 +17,4 @@ COPY . .
 EXPOSE 3000
 
 
-CMD ["npm","start"]
+CMD ["npm","run","start"]
